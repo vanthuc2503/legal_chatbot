@@ -1,0 +1,6 @@
+gradio==5.22.0
+faiss-gpu==1.7.2
+transformers==4.49.0
+sentence_transformers==3.4.1
+accelerate==1.5.2
+numpy==1.26.4

@@ -1,0 +1,31 @@
+.venv/
+env/
+venv/
+__pycache__/
+*.py[cod]
+*.so
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Logs & outputs
+logs/
+*.log
+nohup.out
+
+# Data and indexes (regenerate/download khi cần)
+faiss.index
+faiss_index/
+chunks.csv
+data_with_label/
+phobert_finetuned/
+
+# Gradio artifacts
+gradio_cached_examples/
+

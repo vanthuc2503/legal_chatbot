@@ -1,0 +1,6 @@
+- Rent a cloud GPU
+- install ollama 
+- pull gemma model (gemma:12b and gemma:27b)
+- run the following command in terminal
+	!PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True
+	nohup ollama serve &
